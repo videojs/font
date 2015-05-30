@@ -1,5 +1,5 @@
 require('babel/register');
 
 module.exports = function(grunt) {
-  require('./grunt.js')(grunt);
+  require('./lib/grunt.js')(grunt);
 };
