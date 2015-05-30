@@ -1,0 +1,96 @@
+{
+  "font-name": "VideoJS",
+  "svg-dir": "./node_modules/material-design-icons/",
+  "icons": {
+    "play": {
+      "name": "play",
+      "codepoint": "\\25b6",
+      "svg": "av/svg/production/ic_play_arrow_48px.svg"
+    },
+    "pause": {
+      "name": "pause",
+      "codepoint": "\\e830",
+      "svg": "av/svg/production/ic_pause_48px.svg"
+    },
+    "volume-mute": {
+      "name": "volume-mute",
+      "codepoint": "\\e84b",
+      "svg": "av/svg/production/ic_volume_off_48px.svg"
+    },
+    "volume-low": {
+      "name": "volume-low",
+      "codepoint": "\\e84a",
+      "svg": "av/svg/production/ic_volume_mute_48px.svg"
+    },
+    "volume-mid": {
+      "name": "volume-mid",
+      "codepoint": "\\e849",
+      "svg": "av/svg/production/ic_volume_down_48px.svg"
+    },
+    "volume-high": {
+      "name": "volume-high",
+      "codepoint": "\\e84c",
+      "svg": "av/svg/production/ic_volume_up_48px.svg"
+    },
+    "fullscreen-enter": {
+      "name": "fullscreen-enter",
+      "codepoint": "\\e64b",
+      "svg": "navigation/svg/production/ic_fullscreen_48px.svg"
+    },
+    "fullscreen-exit": {
+      "name": "fullscreen-exit",
+      "codepoint": "\\e64c",
+      "svg": "navigation/svg/production/ic_fullscreen_exit_48px.svg"
+    },
+    "square": {
+      "name": "square",
+      "codepoint": "\\e601",
+      "svg": "image/svg/production/ic_crop_square_48px.svg"
+    },
+    "spinner": {
+      "name": "spinner",
+      "codepoint": "\\e650",
+      "svg": "image/svg/production/ic_camera_48px.svg"
+    },
+    "subtitles": {
+      "name": "subtitles",
+      "codepoint": "\\e80d",
+      "svg": "av/svg/production/ic_subtitles_48px.svg"
+    },
+    "captions": {
+      "name": "captions",
+      "codepoint": "\\e81e",
+      "svg": "av/svg/production/ic_closed_caption_48px.svg"
+    },
+    "chapters": {
+      "name": "chapters",
+      "codepoint": "\\e891",
+      "svg": "action/svg/production/ic_list_48px.svg"
+    },
+    "share": {
+      "name": "share",
+      "codepoint": "\\e61a",
+      "svg": "social/svg/production/ic_share_48px.svg"
+    },
+    "cog": {
+      "name": "cog",
+      "codepoint": "\\e8b1",
+      "svg": "action/svg/production/ic_settings_48px.svg"
+    },
+    "circle": {
+      "name": "circle",
+      "codepoint": "\\e692",
+      "svg": "image/svg/production/ic_brightness_1_48px.svg"
+    },
+    "circle-outline": {
+      "name": "circle-outline",
+      "codepoint": "\\e6f2",
+      "svg": "image/svg/production/ic_panorama_fish_eye_48px.svg"
+    },
+    "circle-inner-circle": {
+      "name": "circle-inner-circle",
+      "codepoint": "\\e603",
+      "svg": "image/svg/production/ic_adjust_48px.svg"
+    }
+  }
+}

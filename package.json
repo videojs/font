@@ -18,6 +18,10 @@
   "devDependencies": {
     "babel": "^5.4.7",
     "grunt": "^0.4.5",
+    "grunt-sass": "^1.0.0",
+    "load-grunt-tasks": "^3.2.0",
+    "lodash": "^3.9.3",
+    "material-design-icons": "^2.0.0",
     "time-grunt": "^1.2.1"
   }
 }
