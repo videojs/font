@@ -1,0 +1,23 @@
+{
+  "name": "videojs-font",
+  "version": "1.0.0",
+  "description": "Video.js icon font",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/videojs/font.git"
+  },
+  "keywords": [
+    "videojs"
+  ],
+  "author": "",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/videojs/font/issues"
+  },
+  "homepage": "https://github.com/videojs/font",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "grunt": "^0.4.5",
+    "time-grunt": "^1.2.1"
+  }
+}
