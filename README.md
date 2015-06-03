@@ -23,12 +23,10 @@ SVGs from the [Material Design set](https://www.google.com/design/icons/), or pu
   "icons": [
     {
       "name": "play",
-      "codepoint": "\\25b6",
       "svg": "av/svg/production/ic_play_arrow_48px.svg"
     },
     {
       "name": "pause",
-      "codepoint": "\\e830",
       "svg": "av/svg/production/ic_pause_48px.svg"
     }
   ]
