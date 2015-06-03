@@ -19,7 +19,7 @@ SVGs from the [Material Design set](https://www.google.com/design/icons/), or pu
 ```json
 {
   "font-name": "VideoJS",
-  "svg-dir": "./node_modules/material-design-icons/",
+  "root-dir": "./node_modules/material-design-icons/",
   "icons": [
     {
       "name": "play",
@@ -28,6 +28,11 @@ SVGs from the [Material Design set](https://www.google.com/design/icons/), or pu
     {
       "name": "pause",
       "svg": "av/svg/production/ic_pause_48px.svg"
+    },
+    {
+      "name": "cool-custom-icon",
+      "svg": "neato-icon.svg",
+      "root-dir": "./custom-icons/neato-icon.svg"
     }
   ]
 }
