@@ -59,6 +59,39 @@
     "name": "circle-inner-circle",
     "svg": "image/svg/production/ic_adjust_48px.svg"
   }, {
+    "name": "hd",
+    "svg": "av/svg/production/ic_hd_24px.svg"
+  }, {
+    "name": "cancel",
+    "svg": "navigation/svg/production/ic_cancel_48px.svg"
+  }, {
+    "name": "replay",
+    "svg": "av/svg/production/ic_replay_48px.svg"
+  }, {
+    "name": "facebook",
+    "svg": "facebook.svg",
+    "root-dir": "./custom-icons/fontawesome/"
+  }, {
+    "name": "gplus",
+    "svg": "gplus.svg",
+    "root-dir": "./custom-icons/fontawesome/"
+  }, {
+    "name": "linkedin",
+    "svg": "linkedin.svg",
+    "root-dir": "./custom-icons/fontawesome/"
+  }, {
+    "name": "twitter",
+    "svg": "twitter.svg",
+    "root-dir": "./custom-icons/fontawesome/"
+  }, {
+    "name": "tumblr",
+    "svg": "tumblr.svg",
+    "root-dir": "./custom-icons/fontawesome/"
+  }, {
+    "name": "pinterest",
+    "svg": "pinterest.svg",
+    "root-dir": "./custom-icons/fontawesome/"
+  }, {
     "name": "audio-description",
     "svg": "audio-description.svg",
     "root-dir": "./custom-icons/"
