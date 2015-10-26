@@ -10,7 +10,7 @@
     "videojs"
   ],
   "author": "Matthew McClure <m@mmcc.io>",
-  "license": "Apache 2",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/videojs/font/issues"
   },
