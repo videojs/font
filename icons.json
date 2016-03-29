@@ -44,6 +44,9 @@
     "name": "chapters",
     "svg": "action/svg/production/ic_list_48px.svg"
   }, {
+    "name": "audio",
+    "svg": "hardware/svg/production/ic_headset_48px.svg"
+  }, {
     "name": "share",
     "svg": "social/svg/production/ic_share_48px.svg"
   }, {
