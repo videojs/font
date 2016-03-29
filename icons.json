@@ -95,5 +95,8 @@
     "name": "audio-description",
     "svg": "audio-description.svg",
     "root-dir": "./custom-icons/"
+  }, {
+    "name": "audio",
+    "svg": "hardware/svg/production/ic_headset_48px.svg"
   }]
 }
