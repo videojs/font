@@ -1,3 +1,12 @@
+// https://github.com/sass/sass/issues/659#issuecomment-64819075
+@function char($character-code) {
+  @if function-exists("selector-append") {
+    @return unquote("\"\\#{$character-code}\"");
+  }
+
+  @return str-slice("\x", 1, 1) + $character-code;
+}
+
 $icon-font-family: {{fontName}};
 $icon-font-path: '../fonts' !default;
 
@@ -15,9 +24,9 @@ $icon-font-path: '../fonts' !default;
 
 // http://sass-lang.com/documentation/file.SASS_REFERENCE.html#maps
 $icons: (
-	{{#each codepoints}}
-		{{@key}}: \\{{this}},
-	{{/each}}
+  {{#each codepoints}}
+          {{@key}}: '{{this}}',
+  {{/each}}
 );
 
 // NOTE: This is as complex as we want to get with SCSS functionality.
@@ -42,7 +51,7 @@ $icons: (
     font-style: normal;
 
     &:before {
-      content: $content;
+      content: char($content);
     }
   }
 }
