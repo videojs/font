@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/videojs/font",
   "devDependencies": {
-    "babel": "^6.5.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "evil-icons": "^1.7.6",
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
