@@ -27,7 +27,7 @@ SVGs from the [Material Design set](https://www.google.com/design/icons/), or pu
 
 ```json
 {
-  "font-name": "VideoJS",
+  "font-name": "my_custom_font",
   "root-dir": "./node_modules/material-design-icons/",
   "icons": [
     {
