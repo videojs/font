@@ -6,7 +6,7 @@ Google's [Material Design Icons](https://github.com/google/material-design-icons
 ## Usage
 
 ```sh
-$ npm install grunt-cli // only if you don't already have grunt installed
+$ npm install grunt-cli # only if you don't already have grunt installed
 $ npm install
 $ grunt
 ```
