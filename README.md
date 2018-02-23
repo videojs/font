@@ -6,7 +6,7 @@ Google's [Material Design Icons](https://github.com/google/material-design-icons
 ## Usage
 
 ```sh
-$ npm install grunt-cli // only if you don't already have grunt installed
+$ npm install grunt-cli # only if you don't already have grunt installed
 $ npm install
 $ grunt
 ```
@@ -17,7 +17,7 @@ You can add custom icons by calling grunt with the `--custom-json` option. It ta
 
 Example:
 ```sh
-$ grunt --custom-json=custom.json,custom2.json
+$ grunt --custom-json=./lib/custom.json,./lib/custom2.json
 ```
 
 ## Making changes to the font
