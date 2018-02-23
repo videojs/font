@@ -22,7 +22,7 @@ $ grunt --custom-json=./lib/custom.json,./lib/custom2.json
 
 ## Making changes to the font
 
-To make changes to the font, simply edit the `icons.json` file. You can add or remove icons, either by just selecting new
+To make changes to the default Video.js font, simply edit the `icons.json` file. You can add or remove icons, either by just selecting new
 SVGs from the [Material Design set](https://www.google.com/design/icons/), or pulling in new SVGs altogether.
 
 ```json
@@ -49,3 +49,34 @@ SVGs from the [Material Design set](https://www.google.com/design/icons/), or pu
 
 Once you're done, simply run `grunt` again to regenerate the fonts and scss partial. To edit the `_icons.scss` partial,
 update `templates/scss.hbs`.
+
+## Creating your own font
+
+If you are developing a Video.js plugin that uses custom icons, you can also create a new font instead of modifying the
+default font. Simply specify a new `font-name` and define the icons you want to include:
+
+```json
+{
+  "font-name": "MyPluginFont",
+  "root-dir": "./node_modules/material-design-icons/",
+  "icons": [
+    {
+      "name": "av-perm",
+      "svg": "action/svg/production/ic_perm_camera_mic_48px.svg"
+    },
+    {
+      "name": "video-perm",
+      "svg": "av/svg/production/ic_videocam_48px.svg"
+    },
+    {
+      "name": "audio-perm",
+      "svg": "av/svg/production/ic_mic_48px.svg"
+    }
+  ]
+}
+```
+Generate the `MyPluginFont` font files using the `custom-json` option:
+
+```sh
+$ grunt --custom-json=MyPluginFont.json
+```
