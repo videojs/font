@@ -8,16 +8,10 @@
 }
 
 $icon-font-family: {{fontName}};
-$icon-font-path: '../fonts' !default;
 
 @font-face {
   font-family: $icon-font-family;
-  src: url('#{$icon-font-path}/{{fontName}}.eot?#iefix') format('eot');
-}
-@font-face {
-  font-family: $icon-font-family;
-  src: url(data:application/font-woff;charset=utf-8;base64,BASE64_WOFF_FONT) format('woff'),
-       url(data:application/x-font-ttf;charset=utf-8;base64,BASE64_TTF_FONT) format('truetype');
+  src: url(data:application/font-woff;charset=utf-8;base64,BASE64_WOFF_FONT) format('woff');
   font-weight: normal;
   font-style: normal;
 }
