@@ -20,15 +20,6 @@ Example:
 $ grunt --custom-json=./lib/custom.json,./lib/custom2.json
 ```
 
-### Excluding default icons
-
-By default, the regular Video.js icons are also included in the font. If you want to exclude these icons, when you're creating a Video.js plugin font for example, use the `--exclude-default` option.
-
-Example:
-```sh
-$ grunt --custom-json=./myIcons.json --exclude-default
-```
-
 ## Making changes to the font
 
 To make changes to the default Video.js font, simply edit the `icons.json` file. You can add or remove icons, either by just selecting new
@@ -88,4 +79,13 @@ Generate the `MyPluginFont` font files using the `custom-json` option:
 
 ```sh
 $ grunt --custom-json=MyPluginFont.json
+```
+
+### Excluding default icons
+
+By default, the regular Video.js icons are also included in the font. If you want to exclude these icons, when you're creating a Video.js plugin font for example, use the `--exclude-default` option.
+
+Example:
+```sh
+$ grunt --custom-json=MyPluginFont.json --exclude-default
 ```
