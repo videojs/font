@@ -3,6 +3,8 @@
 This project contains all of the tooling necessary to generate a new icon font for Video.js. The icons themselves are from
 Google's [Material Design Icons](https://github.com/google/material-design-icons).
 
+You can see an overview of the icons used in the default Video.js font here: https://videojs.github.io/font/
+
 ## Usage
 
 ```sh
