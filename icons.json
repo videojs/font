@@ -29,6 +29,13 @@
     "name": "fullscreen-exit",
     "svg": "navigation/svg/production/ic_fullscreen_exit_48px.svg"
   }, {
+    "name": "picture-in-picture-enter",
+    "svg": "action/svg/production/ic_picture_in_picture_alt_48px.svg"
+  }, {
+    "name": "picture-in-picture-exit",
+    "svg": "picture-in-picture-exit.svg",
+    "root-dir": "./custom-icons/"
+  }, {
     "name": "square",
     "svg": "image/svg/production/ic_crop_square_48px.svg"
   }, {
