@@ -104,5 +104,12 @@
   }, {
     "name": "previous-item",
     "svg": "av/svg/production/ic_skip_previous_48px.svg"
+  }, {
+    "name": "picture-in-picture-enter",
+    "svg": "action/svg/production/ic_picture_in_picture_alt_48px.svg"
+  }, {
+    "name": "picture-in-picture-exit",
+    "svg": "picture-in-picture-exit.svg",
+    "root-dir": "./custom-icons/"
   }]
 }
