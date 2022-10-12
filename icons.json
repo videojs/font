@@ -44,6 +44,9 @@
     "name": "chapters",
     "svg": "action/svg/production/ic_list_48px.svg"
   }, {
+    "name": "file-download",
+    "svg": "file/svg/production/ic_file_download_48px.svg"
+  }, {
     "name": "share",
     "svg": "social/svg/production/ic_share_48px.svg"
   }, {
@@ -65,8 +68,29 @@
     "name": "cancel",
     "svg": "navigation/svg/production/ic_cancel_48px.svg"
   }, {
+    "name": "repeat",
+    "svg": "av/svg/production/ic_repeat_48px.svg"
+  }, {
     "name": "replay",
     "svg": "av/svg/production/ic_replay_48px.svg"
+  }, {
+    "name": "replay-5",
+    "svg": "av/svg/production/ic_replay_5_48px.svg"
+  }, {
+    "name": "replay-10",
+    "svg": "av/svg/production/ic_replay_10_48px.svg"
+  }, {
+    "name": "replay-30",
+    "svg": "av/svg/production/ic_replay_30_48px.svg"
+  }, {
+    "name": "forward-5",
+    "svg": "av/svg/production/ic_forward_5_48px.svg"
+  }, {
+    "name": "forward-10",
+    "svg": "av/svg/production/ic_forward_10_48px.svg"
+  }, {
+    "name": "forward-30",
+    "svg": "av/svg/production/ic_forward_30_48px.svg"
   }, {
     "name": "facebook",
     "svg": "facebook.svg",
@@ -100,6 +124,12 @@
   }, {
     "name": "previous-item",
     "svg": "av/svg/production/ic_skip_previous_48px.svg"
+  }, {
+    "name": "shuffle",
+    "svg": "av/svg/production/ic_shuffle_48px.svg"
+  }, {
+    "name": "cast",
+    "svg": "hardware/svg/production/ic_cast_48px.svg"
   }, {
     "name": "picture-in-picture-enter",
     "svg": "action/svg/production/ic_picture_in_picture_alt_48px.svg"
