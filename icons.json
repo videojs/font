@@ -72,10 +72,6 @@
     "svg": "facebook.svg",
     "root-dir": "./custom-icons/fontawesome/"
   }, {
-    "name": "gplus",
-    "svg": "gplus.svg",
-    "root-dir": "./custom-icons/fontawesome/"
-  }, {
     "name": "linkedin",
     "svg": "linkedin.svg",
     "root-dir": "./custom-icons/fontawesome/"
